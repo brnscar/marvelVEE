@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.SignUp"
+    android:id="@+id/linearLayoutSignup">
+
+    <TextView
+        android:id="@+id/signUpTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="@string/signUp"
+        android:textColor="#090909"
+        android:textSize="15sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/nameTextSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nameTextSignUp"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/namePlainTextSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/namePlainTextSignUp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lastNameTextSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastNameTextSignUp"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/lastNamePlainTextSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/lastNamePlainTextSignUp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/emailTextSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/emailTextSignUp"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/emailPlainTextSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/emailPlainTextSignUp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/passwordTextSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/passwordTextSignUp"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/passwordPlainTextSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/passwordPlainTextSignUp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signUpButtonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/signUpButtonSignUp" />
+
+</LinearLayout>
+</ScrollView>

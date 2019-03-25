@@ -1,0 +1,62 @@
+<resources>
+    <!--Strings do manifest-->
+    <string name="app_name">MarvelVEE</string>
+    <string name="hello_world">TELA</string>
+    <string name="signUp">SIGN UP</string>
+    <!--Strings da SignUp Activity-->
+    <string name="namePlainTextSignUp">Digite seu nome</string>
+    <string name="nameTextSignUp">Nome</string>
+    <string name="lastNamePlainTextSignUp">Digite seu sobrenome</string>
+    <string name="lastNameTextSignUp">Sobrenome</string>
+    <string name="emailPlainTextSignUp">example@example.com</string>
+    <string name="emailTextSignUp">Email</string>
+    <string name="passwordPlainTextSignUp">Digite sua senha</string>
+    <string name="passwordTextSignUp">Password</string>
+    <string name="signUpButtonSignUp">Cadastrar</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Strings da tela activity main user-->
+    <string name="myNameTextView">MEU NOME</string>
+    <string name="myName">Meu nome</string>
+    <string name="myLastNameTextView">MEU SOBRENOME</string>
+    <string name="myLastName">Meu sobrenome</string>
+    <string name="myEmailTextView">MEU EMAIL</string>
+    <string name="myEmail">Meu email</string>
+    <string name="myPasswordTextView">MINHA SENHA</string>
+    <string name="myPassword">Minha senha </string>
+    <string name="changeInformationsButton">MUDAR AS INFORMAÇÕES</string>
+
+    <!--strings Plus activity-->
+
+    <string name="nameTextViewPlus">Iron Man/Tony Stark</string>
+
+    <!--Strings Char list Activity-->
+
+    <string name="ironManButtonCharList">IRON MAN</string>
+    <string name="captainButtonCharList">CAPTAIN AMERICA</string>
+    <string name="hulkButtonCharList">HULK</string>
+    <string name="thorButtonCharList">THOR</string>
+    <string name="gaviaoButtonCharList">GAVIAO ARQUEIRO</string>
+    <string name="blackWidowButtonCharList">BLACK WIDOW</string>
+
+    <!-- Strings Main user Activity -->
+
+    <string name="namePlainTextMainUser">meu nome</string>
+    <string name="nameTextMainUser">MEU NOME</string>
+    <string name="lastNamePlainTextMainUser">meu sobrenome</string>
+    <string name="lastNameTextMainUser">MEU SOBRENOME</string>
+    <string name="emailPlainTextMainUser">example@example.com</string>
+    <string name="emailTextMainUser">MEU EMAIL</string>
+    <string name="passwordPlainTextMainUser">*********</string>
+    <string name="passwordTextMainUser">MINHA SENHA</string>
+    <string name="mudarInfoButtonMainUser">MUDAR INFORMAÇÕES</string>
+
+    <!--Strings marvels-->
+
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="marvel_copyright">Data provided by Marvel. © 2014 Marvel</string>
+    <string name="title_activity_detail_person">Details</string>
+    <string name="searching">Searching&#8230;</string>
+    <string name="erro_searching_person">Error on searching of data. Try again.</string>
+    <string name="seedetails">See comics</string>
+</resources>

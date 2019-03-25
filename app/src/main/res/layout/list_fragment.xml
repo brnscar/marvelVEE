@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_mainList"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="vertical"
+        tools:context=".view.CharListActivity"
+        tools:listitem="@layout/activity_char_list"
+        android:id="@+id/list_view_fragment">
+         </ListView>
+
+
+</FrameLayout>
